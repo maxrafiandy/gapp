@@ -1,0 +1,21 @@
+http_status: 401
+errors: 
+  ErrUnauthorizedUser:
+    code: 101
+    en: "Unauthorized User"
+    id: "Pengguna tidak sah"
+
+  ErrExpiredToken:
+    code: 102
+    en: "Expired Token"
+    id: "Token telah kedaluwarsa"
+
+  ErrAccountSuspended:
+    code: 103
+    en: "Account Suspended"
+    id: "Akun telah ditangguhkan"
+
+  ErrUnauthorizedApplication:
+    code: 104
+    en: "Unauthorized Application"
+    id: "Aplikasi tidak dikenali"

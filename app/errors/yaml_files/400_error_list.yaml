@@ -1,0 +1,66 @@
+http_status: 400
+errors: 
+  ErrFieldRequired:
+    code: 101
+    en: "field is required"
+    id: "kolom wajib diisi"
+
+  ErrFieldBelowMinimum:
+    code: 102
+    en: "must be greater than or equal to %v"
+    id: "harus lebih besar dari atau sama dengan %v"
+
+  ErrFieldAboveMaximum:
+    code: 103
+    en: "must be less than or equal to %v"
+    id: "harus kurang dari atau sama dengan %v"
+
+  ErrFieldMustBeEmail:
+    code: 104
+    en: "must be a valid email address"
+    id: "harus alamat email yang valid"
+
+  ErrFieldMustBeDigit:
+    code: 105
+    en: "must be valid digit"
+    id: "harus digit"
+    
+  ErrFieldMustBeAlphanum:
+    code: 106
+    en: "must be alphanumeric"
+    id: "kolom harus alfanumerik"
+
+  ErrFieldMustBeAlphabet:
+    code: 107
+    en: "must be alphabet"
+    id: "harus alfabet"
+  
+  ErrFieldLengthBelowMinimum:
+    code: 108
+    en: "must be at least %d character(s)"
+    id: "minimal %d karakter"
+
+  ErrFieldLengthAboveMaximum:
+    code: 109
+    en: "must be at most %d characters"
+    id: "maksimal %d character"
+
+  ErrFieldMustBeDate:
+    code: 110
+    en: "invalid date format (yyyy-mm-dd)"
+    id: "format tanggal salah (yyyy-mm-dd)"
+
+  ErrFieldMustBeDatetime:
+    code: 111
+    en: "invalid datetime format (yyyy-mm-dd hh:mm:ss)"
+    id: "format tanggal dan waktu salah (yyyy-mm-dd hh:mm:ss)"
+
+  ErrFieldUnsupportedType:
+    code: 112
+    en: "unsupported type"
+    id: "tipe data tidak dikenali"
+
+  ErrFieldInvalidParam:
+    code: 113
+    en: "invalid parameter %v"
+    id: "parameter %v tidak dikenali"
